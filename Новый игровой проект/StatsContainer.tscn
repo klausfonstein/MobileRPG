@@ -1,0 +1,46 @@
+[gd_scene format=2]
+
+[node name="StatsContainer" type="HBoxContainer"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -42.2806
+margin_top = -8.3597
+margin_right = 41.7194
+margin_bottom = 8.6403
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HP" type="Label" parent="."]
+margin_top = -1.0
+margin_right = 25.0
+margin_bottom = 19.0
+size_flags_horizontal = 3
+size_flags_vertical = 7
+text = "25
+HP"
+align = 1
+
+[node name="AP" type="Label" parent="."]
+margin_left = 29.0
+margin_top = -1.0
+margin_right = 54.0
+margin_bottom = 19.0
+size_flags_horizontal = 3
+size_flags_vertical = 7
+text = "3
+AP"
+align = 1
+
+[node name="MP" type="Label" parent="."]
+margin_left = 58.0
+margin_top = -1.0
+margin_right = 84.0
+margin_bottom = 19.0
+size_flags_horizontal = 3
+size_flags_vertical = 7
+text = "10
+MP"
+align = 1
